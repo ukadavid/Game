@@ -117,3 +117,49 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* CSS for smaller devices */
+
+@media (max-width:720px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align: center;
+  }
+  body{
+    width: 100%;
+  }
+  .between{
+    position: static;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  .guess{
+    margin-top: 15rem;
+  }
+  .right{
+    width: auto;
+  }
+
+  .message{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .again{
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .label-highscore{
+    padding-bottom: 2rem;
+  }
+} 
