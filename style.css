@@ -128,7 +128,7 @@ h1 {
     text-align: center;
   }
   body{
-    width: 100%;
+    width: auto;
   }
   .between{
     position: static;
